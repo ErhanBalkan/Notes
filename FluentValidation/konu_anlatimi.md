@@ -47,8 +47,7 @@ if (!result.IsValid)
 
 Bu kodu birçok yerde kullanabiliriz ve bu kodda değişen sadece 2 yer var onlar
 da `Product` olan yerler ve `ProductValidator` kısmıdır.
-Temiz kod yazmaya başlayalım ;
-
+## Temiz kod yazmaya başlayalım 
 1. `Core` katmanında `CrossCuttingConcerns` adında bir klasör oluşturulur.
 Bu klasör bizim `doğrulama`, `loglama`,`yetkilendirme` vb. işlemlerimizi tutacak.
 2. O klasörün altında `Validation` adında bir klasör oluşturulur.

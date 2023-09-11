@@ -25,3 +25,5 @@ public class UserForRegisterDto : IDto
     public string LastName { get; set; }
 }
 ```
+
+Bunları API katmanında Login ve Register operasyonlarını yazarken kullanacağız.
